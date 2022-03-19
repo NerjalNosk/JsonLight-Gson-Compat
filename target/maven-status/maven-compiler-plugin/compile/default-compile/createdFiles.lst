@@ -1,2 +1,3 @@
 com/nerjal/json/compat/JsonCompat.class
 com/nerjal/json/compat/GsonCompat.class
+ApiTests.class
