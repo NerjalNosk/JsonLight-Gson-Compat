@@ -6,7 +6,7 @@
 
     <groupId>com.nerjal.json</groupId>
     <artifactId>JsonLight_Gson_Compat</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 
     <!--<properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -63,25 +63,16 @@
             </releases>
         </repository>
         <repository>
-            <id>MVNRepository</id>
+            <id>jitpack.io</id>
             <url>https://jitpack.io</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
         </repository>
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.jitpack</groupId>
-            <artifactId>gradle-simple</artifactId>
-            <version>v1.1</version>
-        </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
