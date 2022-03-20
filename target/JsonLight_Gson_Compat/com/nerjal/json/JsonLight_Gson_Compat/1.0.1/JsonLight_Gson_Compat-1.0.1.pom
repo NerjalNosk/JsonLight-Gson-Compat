@@ -6,7 +6,7 @@
 
     <groupId>com.nerjal.json</groupId>
     <artifactId>JsonLight_Gson_Compat</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <!--<properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -50,18 +50,6 @@
     </distributionManagement>
 
     <repositories>
-        <repository>
-            <id>JsonLight</id>
-            <url>https://raw.github.com/NerjalNosk/JsonLight/master</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-        </repository>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>

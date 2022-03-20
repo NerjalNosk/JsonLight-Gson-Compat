@@ -33,3 +33,53 @@ public abstract class Main {
     }
 }
 ```
+
+### Import
+
+Use [Jitpack](https://jitpack.io) in order to import the library
+into your own project.
+
+#### With Maven
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>...</groupId>
+    <artifactId>...</artifactId>
+    <version>...</version>
+    
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.github.NerjalNosk</groupId>
+            <artifactId>JsonLight-Gson-Compat</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+#### With Gradle
+
+```groovy
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation "com.github.NerjalNosk:JsonLight-Gson-Compat:1.0.1"
+}
+```
