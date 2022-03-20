@@ -51,18 +51,6 @@
 
     <repositories>
         <repository>
-            <id>JsonLight</id>
-            <url>https://raw.github.com/NerjalNosk/JsonLight/master</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-        </repository>
-        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
             <snapshots>
